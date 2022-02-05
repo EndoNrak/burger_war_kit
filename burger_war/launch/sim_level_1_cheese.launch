@@ -3,6 +3,7 @@
     <!-- Arguments -->
     <arg name="name_space" default=""/>
     <arg name="output" default="log"/>
+    <arg name="side" default="b"/>
 
     <node pkg="burger_war" type="level_1_cheese.py" name="cheeseRun" output="$(arg output)"/>
 </launch>

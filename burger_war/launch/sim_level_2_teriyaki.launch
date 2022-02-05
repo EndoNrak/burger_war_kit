@@ -9,6 +9,7 @@
     <arg name="initial_pose_y" default="0.0"/>
     <arg name="initial_pose_a" default="0.0"/>
     <arg name="name_space" default=""/>
+    <arg name="side" default="b"/>
     <arg name="output" default="log"/>
 
     <!-- Map server -->
